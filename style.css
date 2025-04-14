@@ -31,11 +31,12 @@ body {
 
 .maincon {
   display: flex;
+  justify-content: space-between;
   .bootsrow {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-left: 20%;
+    padding-left: 25%;
     padding-top: 50px;
   }
   .pointone {
@@ -79,6 +80,7 @@ body {
   border-left: 1px solid gainsboro;
   margin-left: 14%;
   width: 410px;
+  height: 1225px;
   .upcon {
     display: flex;
     flex-direction: column;
