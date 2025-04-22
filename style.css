@@ -25,6 +25,7 @@ body {
     }
   }
   .burger-menu{
+   width: 20px;
    visibility: hidden;
     
   }
@@ -88,6 +89,7 @@ body {
   height: 1225px;
   .burger-cross{
     visibility: hidden;
+    width: 0;
   }
   .pay-menu {
     display: flex;
