@@ -89,7 +89,7 @@ body {
   height: 1225px;
   .burger-cross{
     visibility: hidden;
-    width: 0;
+    width: 0px;
   }
   .pay-menu {
     display: flex;
