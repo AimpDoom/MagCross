@@ -75,7 +75,6 @@ ol {
 
 .boots-section {
   display: flex;
-  gap: 40px;
 }
 
 .boots {
@@ -94,30 +93,28 @@ ol {
     width: 200px;
     padding-bottom: 10px;
   }
-  .total-cash {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10px;
-  }
+}
+.total-cash {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .boots-row {
   display: flex;
   gap: 40px;
-  padding-top: 50px;
+  padding: 50px 40px 0px 40px;
   flex: 1;
   justify-content: center;
-  align-self: flex-start;
 }
 
 .pairs-boots {
   display: flex;
   gap: 70px;
-  width: 890px;
   flex-wrap: wrap;
   align-self: center;
-  padding-left: 20px;
+  justify-content: center;
 }
 
 /* правое меню */
@@ -201,80 +198,35 @@ ol {
 }
 
 /* медиа для других экранов */
-/* @media screen and (((min-width: 768px) and (max-width: 1200px))) {
-  .boots-section{
-  .boots-row{
-    flex-direction: row;
-    padding-left: 10%;
-    .firstline-boots{
-      flex-direction: column;
-    }
-    .twoline-boots {
-      flex-direction: column;
-    }
-  }
-  
-}
-}
 @media screen and (max-width: 768px) {
-  .site-header{
-  .burger-menu{
-    visibility: visible;
-    width: 20px;
-    padding-left: 10px;
-  }
-}
-  .boots-section{
-    .boots-row{
-      flex-direction: row;
-      padding-left: 15%;
-      .firstline-boots{
-        flex-direction: column;
-      }
-      .twoline-boots {
-        flex-direction: column;
-      }
-    }
-    .totalpay-menu {
-      display: none;
-    }
-  }
+ .totalpay-menu{
+  display: none;
+ }
+ .burger-menu{
+  display: flex;
+ }
+ .total-basket{
+  display: flex;
+  gap: 20px;
+ }
   }
 
+
+
   @media screen and (max-width: 425px) {
-    .boots-section{
-      .boots-row{
-        flex-direction: column;
-        padding-left: 20%;
-        .firstline-boots{
-          flex-direction: column;
-        }
-        .twoline-boots {
-          flex-direction: column;
-        }
-      }
       .totalpay-menu {
         display: none;
       }
-    }
-  }
-
-  @media screen and (max-width: 410px) {
-    .boots-section{
-    .boots-row{
-      display: none;
-    }
-    .totalpay-menu{
-      display: block;
-      margin-left: 0px;
-      position: relative;
-      .burger-cross{
-        visibility: visible;
-        width: 20px;
-        position: absolute;
-        right: 20px;
-        top: 10px;
+      .boots-section{
+        padding-left: 0px;
       }
     }
+
+  @media screen and (max-width: 410px) {
+.boots-row{
+  display: none;
+}
+.totalpay-menu{
+  display: block;
+}
   }
-} */
