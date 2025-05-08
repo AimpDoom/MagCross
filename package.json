@@ -16,5 +16,8 @@
     "url": "https://github.com/AimpDoom/MagCross/issues"
   },
   "homepage": "https://github.com/AimpDoom/MagCross#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
 }
